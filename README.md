@@ -3,7 +3,7 @@ Matthew Scala, Electrical Engineering
 matthewscala3820@vt.edu 
 
 ## Mentor
-Phillip Bozay
+Shane Wyman
 
 ## Current Status
 IN PROGRESS
@@ -19,6 +19,7 @@ SPI communication
 Embedded systems
 PCB Design 
 Electronic Circuit Design
+
 
 
 
