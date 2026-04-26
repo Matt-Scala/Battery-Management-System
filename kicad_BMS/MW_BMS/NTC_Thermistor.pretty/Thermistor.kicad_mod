@@ -1,0 +1,106 @@
+(footprint "Thermistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "TH1"
+		(at 0.7 -1.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "899b6f71-788c-49af-9e9b-2e5bf663263a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "10k ohms @ 25C"
+		(at 0.3 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b195e1dd-0b85-4d4c-abe4-d0a2857ff60b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bef1feb-3255-4256-ad95-8d0f4835268c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Temperature dependent resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59560184-93a3-4512-9035-20b4e719b14e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0)
+		(end -0.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d0ac671-5c67-46f5-a024-9d5294cf136e")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abc0ebaf-9e79-4f46-8fd5-47b4859eaa53")
+	)
+	(fp_rect
+		(start -3 -1)
+		(end 3 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f73d0638-5a70-4a4d-b9a8-8f79f85159e6")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "00a5ab71-48d5-4c3e-b1f9-131417ce52d8")
+	)
+	(pad "2" thru_hole circle
+		(at 2 0)
+		(size 1.905 1.905)
+		(drill 1)
+		(property pad_prop_castellated)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e07a32e4-4d8d-4d95-a009-d239461833a5")
+	)
+	(embedded_fonts no)
+)
