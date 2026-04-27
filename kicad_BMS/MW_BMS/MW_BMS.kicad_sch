@@ -5371,16 +5371,16 @@
 		(uuid "155c0a31-3cbb-4147-a63c-8beef5728458")
 	)
 	(junction
+		(at -97.79 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15999073-4378-4d52-a0ad-1900bf37f35b")
+	)
+	(junction
 		(at 144.78 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1752daf1-5bca-4828-97b4-4902103cf061")
-	)
-	(junction
-		(at -97.79 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "178b5ac9-5656-4970-b059-1fb5d4f2810b")
 	)
 	(junction
 		(at 436.88 250.19)
@@ -14774,7 +14774,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at -97.79 153.67 180)
+		(at -97.79 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14792,7 +14792,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100 uohm"
@@ -14803,11 +14803,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "CSS2H-3920:Shunt"
-			(at -96.012 153.67 90)
+			(at -99.568 153.67 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
