@@ -5026,6 +5026,16 @@
 		)
 		(uuid "3c8a86b9-5f29-42f2-925c-3ef82de6144d")
 	)
+	(text "Do we bridge the terminals of the footprint? \"VReg\""
+		(exclude_from_sim no)
+		(at 372.11 -25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43a6c979-a902-46cf-88e8-6662788b317e")
+	)
 	(text "Confidence lvl - 100%"
 		(exclude_from_sim no)
 		(at -39.624 132.334 0)
@@ -5185,6 +5195,16 @@
 			)
 		)
 		(uuid "b241f236-7af8-41da-b52d-5c103b6d861a")
+	)
+	(text "May be missing cell 3 minus"
+		(exclude_from_sim no)
+		(at 348.488 153.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7d96cfe-2f92-439f-80ad-ce46dfe30d03")
 	)
 	(text "Recommended component \nNTCALUG02A103F"
 		(exclude_from_sim no)
