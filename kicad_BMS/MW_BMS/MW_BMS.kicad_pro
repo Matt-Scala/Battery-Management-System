@@ -501,7 +501,12 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "GNDA": "rgb(255, 254, 15)",
+      "GNDD": "rgb(255, 21, 247)",
+      "GNDPWR": "rgb(0, 0, 0)",
+      "GND_ESD": "rgb(34, 255, 11)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
