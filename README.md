@@ -6,7 +6,7 @@ matthewscala3820@vt.edu
 Shane Wyman
 
 ## Current Status
-IN PROGRESS
+Finished
 
 ## Project Overview
 Create a 4-layer PCB BMS(Battery Management System) with voltage, current, temperature, and fault monitoring. Also, include active cell balancing.
